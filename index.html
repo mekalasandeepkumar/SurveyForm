@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrepInsta Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PrepInsta Prime Survey Form</h1>
+    
+    <form id="form">
+
+        <div id="control-from">
+            <label for="name" id="label-name">Name </label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name">
+        </div>
+
+        <div id="control-from">
+            <label for="email" id="label-email">Email </label>
+            <input type="text" name="email" id="email" placeholder="Enter your Email">
+        </div>
+
+        <div id="control-from">
+            <label for="age" id="label-age">Age </label>
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+        </div>
+
+        <div id="control-from">
+            <label for="role" id="label-role">Which option best describe about You</label>
+            <select name="role" id="role">
+                <option value="Student">Student</option>
+                <option value="Intern">Intern</option>
+                <option value="Professional">Professional</option>
+                <option value="Fresher">Fresher</option>
+            </select>
+        </div>
+
+            <div id="control-from">
+                <label>Would you recommend PrepInsta Prime to Your Friends</label>
+                <label for="recomend-1">
+                    <input type="radio" id="recomend-1" name="recomend-1">Yes</label>
+                </label> 
+                <label for="recomend-2">
+                    <input type="radio" id="recomend-2" name="recomend-2">No</label>
+                </label>
+                <label for="recomend-3">
+                    <input type="radio" name="recomend-3" id="recomend-3">Maybe</label>
+                </label>        
+            </div>
+
+            <div id="control-from">
+                <label>Languages and Frameworks known
+                    <small>(Check all that apply)</small>
+                </label>
+                <!-- Input Type Checkbox -->
+                <label for="inp-1">
+                    <input type="checkbox"
+                           name="inp">C</input></label>
+                <label for="inp-2">
+                    <input type="checkbox"
+                           name="inp">C++</input></label>
+                <label for="inp-3">
+                    <input type="checkbox"
+                           name="inp">C#</input></label>
+                <label for="inp-4">
+                    <input type="checkbox"
+                           name="inp">Java</input></label>
+                <label for="inp-5">
+                    <input type="checkbox"
+                           name="inp">Python</input></label>
+                <label for="inp-6">
+                    <input type="checkbox"
+                           name="inp">JavaScript</input></label>
+                <label for="inp-7">
+                    <input type="checkbox"
+                           name="inp">React</input></label>
+                <label for="inp-7">
+                    <input type="checkbox"
+                           name="inp">Angular</input></label>
+                <label for="inp-7">
+                    <input type="checkbox"
+                           name="inp">Django</input></label>
+                <label for="inp-7">
+                    <input type="checkbox"
+                           name="inp">Spring</input></label>
+            </div>
+                
+            <div id="control-from">
+                <label for="comment">
+                    Any comments or suggestions
+                </label>
+     
+                <!-- multi-line text input control -->
+                <textarea name="comment" id="comment"
+                    placeholder="Enter your comment here">
+                </textarea>
+            </div>
+      
+            <!-- Multi-line Text Input Control -->
+            <button type="submit" value="submit">
+                Submit
+            </button>
+
+       
+    </form>
+</body>
+</html>
